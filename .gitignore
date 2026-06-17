@@ -1,0 +1,19 @@
+﻿# Compiled class files and build output
+bin/
+*.class
+out/
+
+# Generated at runtime - personal to whoever plays, shouldn't be tracked
+highscores.txt
+
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db

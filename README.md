@@ -1,27 +1,27 @@
-# 🚀 Code Quest Arena
+ Code Quest Arena
 
 A colorful, beginner-friendly **Java console quiz game** that tests your knowledge of programming basics, Java syntax, and core CS concepts — built as a fun mini-game rather than a serious exam!
 
 ```
 =====================================================
-          🚀  CODE QUEST ARENA  🚀
+            CODE QUEST ARENA  
       Test your coding knowledge - one quest at a time!
 =====================================================
 ```
 
-## ✨ Features
+ Features
 
-- 🎮 **Game-like console UI** with colors (ANSI escape codes) and emojis
-- 📚 **7 categories**: Basic Programming Concepts, Java Syntax, Variables & Data Types, Loops & Conditions, Arrays, OOP Basics, and Mixed Questions
-- 🎯 **3 difficulty levels**: Easy, Medium, Hard (harder questions = more points!)
-- ❓ **56 hand-written questions** covering Java, C, and general programming, with multiple-choice, true/false, and fill-in-the-blank types
-- ⏱️ **Speed bonus** — answer quickly for extra points
-- 😂 **Funny, randomized feedback messages** after every answer
-- 🏆 **Persistent high scores** saved to `highscores.txt`, with a top-5 leaderboard
-- 🔁 **Replay support** — play as many rounds as you like
-- 💡 A short "fun fact" explanation after every question, win or lose
+ **Game-like console UI** with colors (ANSI escape codes) and emojis
+ **7 categories**: Basic Programming Concepts, Java Syntax, Variables & Data Types, Loops & Conditions, Arrays, OOP Basics, and Mixed Questions
+ **3 difficulty levels**: Easy, Medium, Hard (harder questions = more points!)
+ **56 hand-written questions** covering Java, C, and general programming, with multiple-choice, true/false, and fill-in-the-blank types
+ **Speed bonus** — answer quickly for extra points
+ **Funny, randomized feedback messages** after every answer
+ **Persistent high scores** saved to `highscores.txt`, with a top-5 leaderboard
+ **Replay support** — play as many rounds as you like
+ A short "fun fact" explanation after every question, win or lose
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 CodeQuestArena/
@@ -66,7 +66,7 @@ java -cp bin Main
 
 > 💡 **Tip:** If colors/emojis don't display correctly, try running from Git Bash, the VS Code integrated terminal, or Windows Terminal instead of old `cmd.exe`.
 
-## 🎮 How to Play
+##  How to Play
 
 1. Enter your name when prompted.
 2. Pick a category (or choose **Mixed Questions** for a big variety pack pulled from every category).
@@ -94,19 +94,19 @@ list.add(new Question(
 
 No other file needs to change — that's the benefit of keeping question data separate from game logic!
 
-## 🚧 Possible Future Enhancements
+##  Possible Future Enhancements
 
-- ⏰ **Real countdown timer** per question using a background thread, auto-submitting "no answer" if time runs out (the current version tracks elapsed time for the speed bonus but doesn't forcibly cut the player off)
-- 🖥️ A **Swing GUI version** reusing the same `Question`, `Player`, and `QuestionBank` classes — only the "view" layer would need to change, since the game logic is already decoupled
-- 📊 Per-category/per-difficulty statistics (e.g. "You're strongest in OOP Basics!")
-- 🌐 Load questions from a JSON or CSV file instead of hardcoding them in Java, so non-programmers can contribute questions
-- 👥 Multiplayer "pass the keyboard" mode with multiple `Player` objects
-- 🧪 Unit tests for `Question.isCorrect()` and `QuestionBank.getQuizQuestions()`
+-  **Real countdown timer** per question using a background thread, auto-submitting "no answer" if time runs out (the current version tracks elapsed time for the speed bonus but doesn't forcibly cut the player off)
+-  A **Swing GUI version** reusing the same `Question`, `Player`, and `QuestionBank` classes — only the "view" layer would need to change, since the game logic is already decoupled
+-  Per-category/per-difficulty statistics (e.g. "You're strongest in OOP Basics!")
+-  Load questions from a JSON or CSV file instead of hardcoding them in Java, so non-programmers can contribute questions
+-  Multiplayer "pass the keyboard" mode with multiple `Player` objects
+-  Unit tests for `Question.isCorrect()` and `QuestionBank.getQuizQuestions()`
 
-## 📄 License
+##  License
 
 Free to use and modify for learning, portfolios, and fun. Attribution appreciated but not required.
 
 ---
 
-Built as a learning project — happy coding! 🎉
+Built as a learning project — happy codingggggggggg

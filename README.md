@@ -64,8 +64,6 @@ javac -d bin src/*.java
 java -cp bin Main
 ```
 
-> 💡 **Tip:** If colors/emojis don't display correctly, try running from Git Bash, the VS Code integrated terminal, or Windows Terminal instead of old `cmd.exe`.
-
 ##  How to Play
 
 1. Enter your name when prompted.
@@ -75,24 +73,6 @@ java -cp bin Main
 5. Get instant feedback, a fun fact, and watch your score grow!
 6. See your final score, accuracy, and a tiered ending message.
 7. Check the leaderboard and choose to play again.
-
-## 🛠️ How to Add More Questions
-
-Open `QuestionBank.java` and find the `buildXxx()` method for the category you want to extend (e.g. `buildArrays()`). Just copy an existing `Question(...)` block and change the text:
-
-```java
-list.add(new Question(
-    "Your question text here?",
-    opts("Option A", "Option B", "Option C", "Option D"),
-    "Option A",          // the correct answer (must match an option exactly)
-    cat,                 // category - already set at the top of the method
-    "Medium",            // difficulty: Easy / Medium / Hard
-    Question.QuestionType.MULTIPLE_CHOICE,
-    "A short fun fact shown after answering."
-));
-```
-
-No other file needs to change — that's the benefit of keeping question data separate from game logic!
 
 ##  Possible Future Enhancements
 
